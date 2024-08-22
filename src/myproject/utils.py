@@ -1,6 +1,4 @@
-
-
-def fancy_function(important_arg:int, default_arg:int=1) -> str:
+def fancy_function(important_arg: int, default_arg: int = 1) -> str:
     """This is a fancy function that does fancy things.
     Args:
         important_arg (int): The first parameter.
@@ -10,5 +8,4 @@ def fancy_function(important_arg:int, default_arg:int=1) -> str:
         str: The return value. True for success, False otherwise.
     """
     print("I'm fancy!")
-    return "fancy"
-    
+    return 'fancy'
